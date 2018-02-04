@@ -16,7 +16,8 @@ function FunThings() {
       <ul className={styles.list}>
         <li className={styles.item}>
           <div className={styles.hero}>
-            <a href="https://github.com/simonmarklar/speedate" target="_blank" rel="noopener noreferrer">
+            <a className={styles.imgLink} 
+              href="https://github.com/simonmarklar/speedate" target="_blank" rel="noopener noreferrer">
               <h2>Speed Date</h2>
               <img src={speedateImage} alt="Speedate" />
             </a>

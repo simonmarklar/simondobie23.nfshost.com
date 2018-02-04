@@ -17,3 +17,30 @@
 .item a {
   color: inherit;
 }
+
+@media (max-width: 800px) {
+  .item {
+    grid-template-columns: 1fr;
+  }
+
+  .item .imgLink {
+    display: flex;
+    margin-right: -1em;
+  }
+
+  .item h2 {
+    flex: 1 0;
+  }
+}
+
+@media (max-width: 470px) {
+  .imgLink {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item .imgLink {
+    display: flex;
+    margin-right: 0;
+  }
+}
