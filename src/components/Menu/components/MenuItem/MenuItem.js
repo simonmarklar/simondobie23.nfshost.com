@@ -3,7 +3,12 @@ import { Link } from 'react-router-dom'
 
 import styles from './menu-item.css';
 
-function MenuItem (props) {
+type Props = {
+  to: string,
+  children: React.Node
+}
+
+function MenuItem (props: Props) {
   const {
     to,
     children: text
