@@ -1,0 +1,11 @@
+.experience {
+  padding: 1.5em;
+}
+
+.experience a {
+  color: inherit;
+}
+
+.experience:nth-child(odd) {
+  background-color: darkslategrey;
+}
