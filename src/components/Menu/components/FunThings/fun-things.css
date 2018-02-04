@@ -1,0 +1,13 @@
+
+.funThings {
+  composes: menuItem from '../MenuItem/menu-item.css';
+  background-image: url('./player1.png');
+  background-repeat: repeat-x;
+  background-position-y: 50%;
+  background-size: initial;
+  transition: background-position 1s ease-in-out;
+}
+
+.funThings:hover {
+  background-position: 200% 50%;
+}

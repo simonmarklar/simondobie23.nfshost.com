@@ -1,0 +1,4 @@
+.home {
+  composes: menuItem from '../MenuItem/menu-item.css';
+  background-image: url('./home.jpg');
+}

@@ -1,0 +1,21 @@
+/* menu styles */
+
+.menu {
+  margin: 0 1.5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(130px, auto);
+}
+
+@media (max-width: 640px) {
+  .menu {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .menu {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
