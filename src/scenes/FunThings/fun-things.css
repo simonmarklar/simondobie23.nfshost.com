@@ -1,0 +1,19 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style:none;  
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  padding: 0 1em;
+}
+
+.item:nth-child(odd){
+  background-color: darkslategrey;
+}
+
+.item a {
+  color: inherit;
+}
